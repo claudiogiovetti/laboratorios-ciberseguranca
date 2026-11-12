@@ -56,3 +56,33 @@ Configurei a firewall de uma máquina virtual Ubuntu (VirtualBox) através da li
 **Competências:** Linux (Ubuntu), linha de comandos, UFW, filtragem de tráfego, portas e protocolos.
 
 [Ver vídeo](https://youtu.be/dnSChvaqhBA)
+---
+
+## Lab 5: Firewall UFW com política "negar tudo por defeito"
+
+Configurei a firewall de uma máquina virtual Ubuntu (VirtualBox) pela linha de comandos, aplicando o princípio do menor privilégio: bloquear todo o tráfego por defeito e permitir apenas o necessário.
+
+- Repus a firewall com `sudo ufw reset`.
+- Defini as políticas por defeito para bloquear todo o tráfego de entrada e de saída (`sudo ufw default deny incoming` e `sudo ufw default deny outgoing`).
+- Abri apenas os serviços necessários com `sudo ufw allow`: SSH (22), HTTP (80), HTTPS (443), DNS (53), NTP (123), SMTP submission (587) e uma porta personalizada (2222).
+- Ativei a firewall com `sudo ufw enable`.
+- Verifiquei as regras ativas com `sudo ufw status verbose`.
+
+**Competências:** Linux (Ubuntu), linha de comandos, UFW, política de negação por defeito, princípio do menor privilégio, filtragem de tráfego.
+
+[Ver vídeo](https://youtu.be/m3kTQLD_-K4)
+---
+
+## Lab 6: Teste de conectividade entre duas máquinas virtuais (Kali Linux e Windows 10)
+
+Testei a comunicação de rede entre duas máquinas virtuais no Oracle VM VirtualBox: uma com Kali Linux e outra com Windows 10.
+
+- No Kali Linux, consultei a configuração de rede com `ip a` e testei a conectividade com `ping`.
+- No Windows 10, verifiquei o endereço IP atribuído com `ipconfig` na Linha de Comandos.
+- Realizei testes de ping entre as duas máquinas para validar a comunicação.
+- Desativei temporariamente o Firewall do Windows Defender (redes privadas e públicas) para analisar o efeito nos testes de ping, num ambiente de laboratório isolado.
+- Voltei ao Kali Linux para repetir os testes de ping.
+
+**Competências:** redes, endereçamento IP, `ping`, `ipconfig`, Kali Linux, Windows, firewall, ambientes virtualizados.
+
+[Ver vídeo](https://youtu.be/C8cd4pwnwy4)
