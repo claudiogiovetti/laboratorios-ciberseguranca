@@ -86,3 +86,21 @@ Testei a comunicação de rede entre duas máquinas virtuais no Oracle VM Virtua
 **Competências:** redes, endereçamento IP, `ping`, `ipconfig`, Kali Linux, Windows, firewall, ambientes virtualizados.
 
 [Ver vídeo](https://youtu.be/C8cd4pwnwy4)
+---
+
+## Lab 7: Simulação de teste de intrusão (payload, reverse shell e Meterpreter)
+
+> Laboratório realizado num ambiente totalmente isolado e controlado (duas máquinas virtuais em rede local, sem ligação à internet nem a sistemas de terceiros), apenas para fins de aprendizagem.
+
+Simulei um teste de intrusão entre duas máquinas virtuais no VirtualBox (Kali Linux como atacante, Windows 10 como alvo), usando Metasploit.
+
+- Verifiquei a conectividade entre as VMs com `ping` e confirmei os endereços IP de ambas.
+- Gerei um payload executável para Windows com `msfvenom` (meterpreter, reverse TCP).
+- Alojei o ficheiro num servidor HTTP simples no Kali Linux e descarreguei-o na VM Windows.
+- Configurei um listener no Metasploit (`exploit/multi/handler`) com o payload, IP e porta correspondentes.
+- Ao executar o ficheiro na VM Windows, estabeleci uma sessão Meterpreter com sucesso.
+- Realizei reconhecimento pós-exploração com `sysinfo` e `getuid`.
+
+**Competências:** Metasploit Framework, msfvenom, reverse shell, Meterpreter, pós-exploração, redes e comunicação cliente-servidor.
+
+[Ver vídeo](https://youtu.be/B_n5NOcvuUg)
