@@ -42,3 +42,17 @@ Criei e instalei uma máquina virtual com Ubuntu 20.04 no Oracle VM VirtualBox, 
 **Competências:** virtualização, instalação e configuração de Linux (Ubuntu), dimensionamento de recursos de uma VM.
 
 [Ver vídeo](https://youtu.be/-iDncB4XcHI)
+---
+
+## Lab 4: Configuração da firewall do Ubuntu com UFW
+
+Configurei a firewall de uma máquina virtual Ubuntu (VirtualBox) através da linha de comandos, usando o UFW (Uncomplicated Firewall).
+
+- Repus a firewall com `sudo ufw reset`, para partir de um estado limpo.
+- Criei regras com `sudo ufw allow` para os serviços necessários: SSH (22), HTTP (80), HTTPS (443), DNS (53), NTP (123), SMTP submission (587) e uma porta personalizada (2222).
+- Ativei a firewall com `sudo ufw enable`.
+- Verifiquei as regras ativas com `sudo ufw status verbose`.
+
+**Competências:** Linux (Ubuntu), linha de comandos, UFW, filtragem de tráfego, portas e protocolos.
+
+[Ver vídeo](https://youtu.be/dnSChvaqhBA)
