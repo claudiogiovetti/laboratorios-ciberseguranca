@@ -104,3 +104,16 @@ Simulei um teste de intrusão entre duas máquinas virtuais no VirtualBox (Kali 
 **Competências:** Metasploit Framework, msfvenom, reverse shell, Meterpreter, pós-exploração, redes e comunicação cliente-servidor.
 
 [Ver vídeo](https://youtu.be/B_n5NOcvuUg)
+---
+
+## Trabalho Final: Exercício de Reconhecimento OSINT
+
+Realizei um exercício de reconhecimento passivo (OSINT), no âmbito do curso de Cibersegurança, sobre uma organização real, usando exclusivamente fontes abertas e ferramentas autorizadas (Netcraft, Censys, MaxMind, Google, Maltego), sem qualquer interação direta com os sistemas da organização.
+
+- Mapeei a infraestrutura pública (IPs, hosting, DNS, subdomínios).
+- Identifiquei a superfície de exposição pública (serviços, emails institucionais, documentos indexados).
+- Elaborei um relatório com conclusões e recomendações de mitigação.
+
+Por conter informação sobre uma organização real, o relatório completo não é publicado aqui. Posso partilhar os detalhes e a metodologia em entrevista.
+
+**Competências:** OSINT, Netcraft, Censys, Maltego, análise de superfície de ataque, reporting.
