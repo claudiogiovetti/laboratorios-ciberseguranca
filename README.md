@@ -28,3 +28,17 @@ Configurei regras de entrada e saída na Firewall do Windows Defender com Segura
 
 [Ver vídeo](https://youtu.be/y-B-dYE6NIk)
 
+---
+
+## Lab 3: Criação e instalação de uma máquina virtual Ubuntu (VirtualBox)
+
+Criei e instalei uma máquina virtual com Ubuntu 20.04 no Oracle VM VirtualBox, num computador com Windows.
+
+- Criei a VM a partir da imagem ISO do Ubuntu 20.04.6 Desktop (amd64).
+- Configurei a instalação automática (utilizador, palavra-passe e nome da máquina).
+- Defini os recursos de hardware: 2048 MB de memória RAM, 1 CPU e 25 GB de disco.
+- Arranquei a VM, ajustei o modo de visualização (escalado) e acompanhei a instalação do sistema (verificação de disco e cópia de ficheiros).
+
+**Competências:** virtualização, instalação e configuração de Linux (Ubuntu), dimensionamento de recursos de uma VM.
+
+[Ver vídeo](https://youtu.be/-iDncB4XcHI)
