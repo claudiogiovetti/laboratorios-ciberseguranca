@@ -14,3 +14,17 @@ Criei e iniciei uma máquina virtual Windows 10 no Oracle VM VirtualBox.
 **Competências:** virtualização, configuração de ambientes de teste, instalação de sistemas operativos.
 
 [Ver vídeo](https://youtu.be/QcVx4hgljRM) 
+---
+
+## Lab 2: Regras de entrada e saída na Firewall do Windows Defender
+
+Configurei regras de entrada e saída na Firewall do Windows Defender com Segurança Avançada, numa máquina virtual Windows (Oracle VM VirtualBox).
+
+- Criei regras de porta TCP/UDP (80, 443, 21 e 53) para permitir ou bloquear ligações.
+- Defini condições de segurança: permitir apenas ligações seguras e restringir a utilizadores ou grupos autorizados.
+- Dei nomes descritivos a cada regra (por exemplo, "entrada porta 80", "entrada porta 443", "saída UDP porta 53") para facilitar a gestão do tráfego.
+
+**Competências:** Windows Defender Firewall com Segurança Avançada, filtragem de tráfego, portas e protocolos, controlo de acesso.
+
+[Ver vídeo](https://youtu.be/y-B-dYE6NIk)
+
